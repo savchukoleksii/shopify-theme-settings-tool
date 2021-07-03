@@ -1,0 +1,26 @@
+{
+  "name": "@savchukoleksii/shopify-theme-settings-tool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "browser": {
+    "index.js": "src/index.js"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savchukoleksii/shopify-theme-settings-tool.git"
+  },
+  "author": "Oleksii Savchuk <savchukoleksii@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savchukoleksii/shopify-theme-settings-tool/issues"
+  },
+  "homepage": "https://github.com/savchukoleksii/shopify-theme-settings-tool#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "webpack": "^5.42.0"
+  }
+}
